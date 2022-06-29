@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anuj Fitness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      margin: 0px;
+      padding: 0px;
+      background: url('img/gym-women.jpg');
+      color: white;
+    }
+
+    .left {
+      position: absolute;
+      left: 60px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+
+    .mid {
+      /* border: 2px solid greenyellow; */
+      display: block;
+      width: 45%;
+      margin: 20px auto;
+      top: 20px;
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid yellow; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgba(189, 189, 184, 0.767);
+    }
+    .left img {
+      width: 40px;
+    }
+    .left div {
+      line-height: 19px;
+      font-size: 26px;
+      text-align: center;
+    }
+    .left img {
+      display: inline-block;
+      width: 60px;
+    }
+    .container {
+      /* border: 2px solid green; */
+      display: inline-block;
+      margin: 106px 80px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 10px;
+    }
+    .btn {
+      font-family: 'Merriweather', serif;
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(92, 85, 85);
+    }
+    .logobottom {
+      line-height: 18px;
+      font-size: 22px;
+    }
+    .form-group input {
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      display: block;
+      width: 448px;
+      padding: 9px;
+      border: 2px solid black;
+      margin: 11px auto;
+      font-size: 25px;
+      border-radius: 8px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container {
+      background-color: black;
+      opacity: 70%;
+    }
+    .container button {
+      display: block;
+      width: 93%;
+      margin: 19px auto;
+      line-height: normal;
+      height: 53px;
+    }
+    .btn:hover {
+      background-color: rgb(70, 67, 67);
+    }
+    .about {
+      background-color: black;
+      opacity: 104%;
+      /* border: 2px solid greenyellow; */
+      border-radius: 10px;
+      display: inline-block;
+      position: absolute;
+      top: 207px;
+      right: 90px;
+      width: 516px;
+      padding: 44px;
+    }
+    .about h1 {
+      color: white;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/gym-logo.png" alt="logo" />
+        <div class="logobottom">Anuj Fitness</div>
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Meter</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call Now</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of Delhi today!</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="Name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="Address" placeholder="Enter your address" />
+        </div>
+        <div class="form-group">
+          <input type="number" name="" placeholder="Enter your phone number" />
+        </div>
+        <div class="form-group">
+          <input type="email" name="" placeholder="Enter your email" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+      <div class="about">
+        <h1>Our Goals</h1>
+        <p class="goals">
+          Being physically and mentally fit is necessary for an individual to
+          live a happy, long life. Typically, exercise is one of the best ways
+          to keep a person healthy. Hence, it is always best to find a workout
+          routine no matter how busy you are. With the numerous diseases that
+          spread in the world today, many individuals realized the essence of
+          workout. Specifically, having a workout routine will give an
+          individual the greatest physical, mental, and social benefits.
+          Accordingly, exercise will help you increase energy levels, reduce
+          chronic disease risk, lose weight, and help improve brain health and
+          memory. With such benefits, you probably will love to do workout
+          routines soon. Luckily, you don’t need to do it yourself as various
+          personal trainers, or professional fitness coaches exist to provide
+          the help you need. And joining fitness classes is just at your
+          fingertips.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

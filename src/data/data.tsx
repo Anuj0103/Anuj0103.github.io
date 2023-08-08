@@ -403,7 +403,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: `I'm currently looking for summer internship opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me.`,
+  description: `I'm currently looking for Full time/internship opportunities! If you know of any positions available kindly refer me and feel free to reach out to me for any communication.`,
   items: [
     {
       type: ContactType.Email,

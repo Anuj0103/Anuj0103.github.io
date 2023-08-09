@@ -106,7 +106,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description:
-"Hello! I'm nuj Dhingra, a passionate Computer Science enthusiast based in Delhi, India. With a B.Tech in Computer Science & Engineering from Maharaja Agrasen Institute of Technology, I'm driven by the art of creating technology solutions. My skills span programming in languages like C++, Python, and Java, with a solid foundation in Data Structures, Algorithms, and Object-Oriented Programming.\n\nI find my thrill in blending technology with creativity, evident in my web development journey. As a Web Dev Intern at TWOWAITS, I optimized user interfaces using ReactJS, NodeJS, and HTML5, resulting in improved performance and user engagement.\n\nDiving into blockchain tech, I've explored Ethereum, Smart Contracts, and decentralized apps (DApps), contributing to projects that reshape digital transactions. My projects like Smart_Brain, using machine learning, and Covicure, a COVID Resource Exchange, highlight my versatility.\n\nAs a dedicated learner, adaptable collaborator, and problem solver, I've secured 2nd positions in notable hackathons and even published a research paper. Join me on this exciting journey of innovation and impact!\n\nThank you for visiting my portfolio.",
+"Hello! I'm Anuj Dhingra, a passionate Computer Science enthusiast based in Delhi, India. With a B.Tech in Computer Science & Engineering from Maharaja Agrasen Institute of Technology, I'm driven by the art of creating technology solutions. My skills span programming in languages like C++, Python, and Java, with a solid foundation in Data Structures, Algorithms, and Object-Oriented Programming.\n\nI find my thrill in blending technology with creativity, evident in my web development journey. As a Web Dev Intern at TWOWAITS, I optimized user interfaces using ReactJS, NodeJS, and HTML5, resulting in improved performance and user engagement.\n\nDiving into blockchain tech, I've explored Ethereum, Smart Contracts, and decentralized apps (DApps), contributing to projects that reshape digital transactions. My projects like Smart_Brain, using machine learning, and Covicure, a COVID Resource Exchange, highlight my versatility.\n\nAs a dedicated learner, adaptable collaborator, and problem solver, I've secured 2nd positions in notable hackathons and even published a research paper. Join me on this exciting journey of innovation and impact!\n\nThank you for visiting my portfolio.",
   aboutItems: [
     {label: 'Location', text: 'New Delhi', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
@@ -403,7 +403,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: `I'm currently looking for Full time/internship opportunities! If you know of any positions available kindly refer me and feel free to reach out to me for any communication.`,
+  description: `I'm currently looking for Full time/Internship opportunities! If you know of any positions available kindly refer me and feel free to reach out to me for any communication.`,
   items: [
     {
       type: ContactType.Email,
